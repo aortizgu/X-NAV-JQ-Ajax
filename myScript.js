@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $("button").click(function(){
         $.ajax({
-            url: '/data.html',
+            url: '/X-NAV-JQ-Ajax/data.html',
         })
         .done(function(data, status) {
             $('#box').html(data)
